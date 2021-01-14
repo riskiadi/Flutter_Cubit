@@ -1,6 +1,5 @@
-import 'package:cubit_app/presentation/home/home_page.dart';
-import 'package:cubit_app/presentation/sign_in/sign_in_page.dart';
 import 'package:flutter/material.dart';
+import 'sign_in/sign_in_page.dart';
 
 class AppWidget extends StatelessWidget {
   @override
