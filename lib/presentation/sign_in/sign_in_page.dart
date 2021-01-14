@@ -35,9 +35,9 @@ class _SignInPageState extends State<SignInPage> {
                   if(state is AuthLoading){
                     print("sedang loading");
                   }else if(state is AuthError){
-                    print("password salah");
+                    print(state.errorMessage);
                   }else if(state is AuthSuccess){
-                    print("Login Berhasil ye");
+                    print(state.loginResponse);
                   }
                 },
                 builder: (context, state) {
